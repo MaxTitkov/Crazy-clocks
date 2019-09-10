@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Gayathri|Major+Mono+Display|Modak&display=swap');
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: auto;
+	width: 250px;
+	margin-top: 250px;
+
+}
+
+.container>h1{
+	font-family: 'Gayathri', sans-serif;
+}
+
+.clock{
+	display: flex;
+	justify-content: center;
+
+}
+
+.minutes-container, .seconds-container{
+	width: 100px;
+	text-align: center;
+	padding-top: 35px;
+	background-color: rgb(106, 72, 215);
+}
+
+.minutes, .seconds{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	background-color: rgb(106, 72, 215);
+}
+
+.time{
+	font-size: 50px;
+	font-family: 'Major Mono Display', monospace;
+	background-color: rgb(65, 44, 132);
+	padding: 10px 0px;
+}
+
+.minutes-container{
+	margin-right: 5px;
+}
+
+.time-descr{
+	font-family: 'Gayathri', sans-serif;
+}
+
+.buttons{
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+.btn{
+	width: 63px;
+	height: 80px;
+	margin: 0px 5px;
+	background-color: #fff;
+	border: 2px solid rgb(65, 44, 132);
+	font-family: 'Gayathri', sans-serif;
+	font-size: 15px;
+}
+
+
+.success-text{
+	text-align: center;
+	font-family: 'Modak', cursive;
+	font-size: 200px;
+	margin-top: -250px;
+	color: #FF5959;
+	transform: rotate(-5deg);
+	margin-left: -110px;
+}
